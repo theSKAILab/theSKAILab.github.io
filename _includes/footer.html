@@ -1,0 +1,34 @@
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div>
+      <h2 class="footer-heading">About</h2>
+      <p>
+        {{ site.name }}<br>
+        {{ site.title }}<br>
+        {{ site.institution }}
+      </p>
+    </div>
+    <div>
+      <h2 class="footer-heading">Contact</h2>
+      <p>
+        <a href="mailto:{{ site.email }}">{% include icon.html name="envelope" %} {{ site.email }}</a><br>
+        {% if site.links.github and site.links.github != "" %}<a href="{{ site.links.github }}">{% include icon.html name="github" %} GitHub</a><br>{% endif %}
+      </p>
+    </div>
+    <div>
+      <h2 class="footer-heading">Links</h2>
+      <p>
+        {% if site.links.google_scholar and site.links.google_scholar != "" %}<a href="{{ site.links.google_scholar }}">{% include icon.html name="google-scholar" %} Google Scholar</a><br>{% endif %}
+        {% if site.links.researchgate and site.links.researchgate != "" %}<a href="{{ site.links.researchgate }}">{% include icon.html name="researchgate" %} ResearchGate</a><br>{% endif %}
+        <a href="https://github.com/sbryngelson/academic-website-template">{% include icon.html name="github" %} Use this template!</a>
+      </p>
+    </div>
+  </div>
+  <div class="footer-grid">
+    <div class="footer-copyright" style="grid-column: 1 / -1;">
+      &copy; {{ "now" | date: "%Y" }} {{ site.name | escape }}
+    </div>
+  </div>
+</footer>
+
+<script src="{{ '/assets/js/site.js' | relative_url }}"></script>

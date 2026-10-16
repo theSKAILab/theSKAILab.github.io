@@ -1,0 +1,14 @@
+# Former lab members, shown in a table on the Team page.
+# Each entry needs: name, duration, info
+
+- name: Albert Hibbs
+  duration: 1951-55
+  info: Now at Jet Propulsion Laboratory
+
+- name: William Frazer
+  duration: 1954-58
+  info: Now Professor at UC San Diego
+
+- name: Robert Hellwarth
+  duration: 1952-56
+  info: Now Professor at USC
