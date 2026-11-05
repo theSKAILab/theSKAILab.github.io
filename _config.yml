@@ -1,31 +1,31 @@
 # ============================================================
 # STEP 1: Your Identity (required)
 # ============================================================
-name: "Richard Feynman"
-title: "Professor of Physics"
-institution: "California Institute of Technology"
-email: richard@university.edu
-photo: headshot.jpg  # place your photo in images/
+name: "SKAI Lab"
+title: "Spatial Knowledge and Artificial Intelligence"
+institution: "University of Maine"
+email: ""
+photo: ""
 
 # ============================================================
 # STEP 2: Your Links (optional -- leave blank to hide an icon)
 # ============================================================
 links:
-  google_scholar: "https://scholar.google.com/citations?user=B7vSqZsAAAAJ"
-  github: "https://github.com/"
-  researchgate: "https://www.researchgate.net/"
-  orcid: ""
+  google_scholar: "https://scholar.google.com/citations?user=595f4agAAAAJ&hl=en&oi=ao"
+  github: "https://github.com/theSKAILab"
+  researchgate: "http://www.researchgate.net/profile/Torsten_Hahmann/"
+  orcid: "https://orcid.org/0000-0002-5331-5052"
   twitter: ""
-  linkedin: ""
+  linkedin: "https://www.linkedin.com/in/torsten-hahmann-57b61217a/"
   cv: ""  # e.g., "papers/cv.pdf"
 
 # ============================================================
 # STEP 3: Site Settings
 # ============================================================
-accent_color: "#1a7a6d"      # theme color; light and dark variants are derived automatically
+accent_color: "#009696"      # theme color; light and dark variants are derived automatically
 dark_mode: true              # set to false to disable dark mode entirely
 math: false                  # true loads MathJax on every page; or add `math: true` to individual pages
-description: "Academic webpage of Dr. Richard Feynman"
+description: "Research projects, ontologies, publications, and people of the Spatial Knowledge and Artificial Intelligence (SKAI) Lab at the University of Maine"
 
 # When deploying with the included GitHub Actions workflow these are filled
 # in automatically from your Pages settings (user site, project site, or
@@ -47,14 +47,17 @@ analytics:
 # Each name is a page in _pages/. Add `label: Papers` to change the
 # navbar text without changing the URL.
 nav_pages:
-  - name: about
-  - name: publications
-  - name: talks
-  - name: research
-  - name: software
+#  - name: about
   - name: team
-  - name: teaching
-  - name: blog
+  - name: research
+  - name: publications
+#  - name: talks
+#  - name: software
+#  - name: teaching
+#  - name: blog
+  - name: allnews
+    label: News
+
 
 # ============================================================
 # STEP 5: Publications (assets/ref.bib)
@@ -62,8 +65,8 @@ nav_pages:
 # Your name is bolded in the publication list. Write it exactly as it
 # appears in the rendered list ("Last, F. M."); list the longest form first.
 scholar:
-  last_name: Feynman
-  first_name: ["R. P.", "R."]
+  last_name: Hahmann
+  first_name: ["Torsten", "T."]
   style: citesty
   locale: en
   source: /assets/

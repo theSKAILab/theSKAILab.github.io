@@ -343,7 +343,7 @@
                 <choose>
                   <if variable="title">
                     <group delimiter=" ">
-                      <text macro="title"/>
+                      <text macro="title" font-weight="bold"/>
                       <text macro="parenthetical"/>
                     </group>
                   </if>
@@ -371,7 +371,7 @@
         <choose>
           <if variable="title">
             <group delimiter=" ">
-              <text macro="title"/>
+              <text macro="title" font-weight="bold"/>
               <text macro="parenthetical"/>
             </group>
           </if>
@@ -585,7 +585,7 @@
     <choose>
       <if variable="title">
         <group delimiter=" ">
-          <text macro="title"/>
+          <text macro="title" font-weight="bold"/>
           <text macro="parenthetical"/>
           <text macro="bracketed"/>
         </group>

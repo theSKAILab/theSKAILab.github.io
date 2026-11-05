@@ -1,20 +1,41 @@
 # News items shown on the home page sidebar.
-# The 3 most recent are shown; all appear on /allnews.
-# Each entry needs: date, headline
-- date: 6 February, 1986
-  headline: "Appointed to the Rogers Commission investigating the Space Shuttle Challenger disaster"
+# Keep entries in reverse chronological order.
+# The first three appear in the sidebar; all appear on the News page.
 
-- date: 1 January, 1980
-  headline: "National Medal of Science awarded by President Carter"
+- date: "5 December 2023"
+  headline: >-
+    <strong>Katrina Schweikert featured as a Sustainability Graduate Fellow.</strong>
+    SKAI Lab research assistant Katrina Schweikert discusses
+    her research using geospatial knowledge graphs to integrate
+    environmental data and investigate PFAS contamination,
+    alongside her interests in sustainability and environmental justice.
+    <a href="https://umaine.edu/sustainabilitysolutions/2023-24-sustainability-graduate-fellow-katrina-schweikert/">Read the Mitchell Center fellowship feature</a>.
 
-- date: 21 October, 1965
-  headline: "Awarded the Nobel Prize in Physics for contributions to quantum electrodynamics"
+- date: "10 October 2023"
+  headline: >-
+    <strong>NSF funding supports the development of SAWGraph.</strong>
+    SKAI Lab director Torsten Hahmann leads a team awarded
+    $1.5 million from NSF to develop SAWGraph, an open knowledge
+    network connecting PFAS contamination data with information
+    about potential sources and environmental pathways.
+    <a href="https://umaine.edu/news/2023/10/umaine-leading-development-of-new-state-of-the-art-tool-for-tracking-pfas-nationwide/">Read the UMaine News article</a>.
 
-- date: 1 September, 1961
-  headline: "The Feynman Lectures on Physics begins publication"
+- date: "16 June 2021"
+  headline: >-
+    <strong>Connecting forest data through student research.</strong>
+    SKAI Lab research assistant Kingsley Wiafe-Kwakye discusses
+    his Digital Forest research in an INSPIRES student feature.
+    Co-advised by Kate Beard-Tisdale and Torsten Hahmann,
+    Kingsley uses ontologies and knowledge graphs to connect
+    information about tree species and their environmental conditions.
+    <a href="https://umaine.edu/epscor/2021/06/16/inspires-student-feature-kingsley-wiafe-kwakye/">Read the Maine EPSCoR student feature</a>.
 
-- date: 1 June, 1959
-  headline: "Delivered 'There's Plenty of Room at the Bottom' talk at Caltech APS meeting"
-
-- date: 1 January, 1951
-  headline: "Joined the faculty at California Institute of Technology"
+- date: "12 January 2016"
+  headline: >-
+    <strong>Collaborating on new approaches to computing education.</strong>
+    SKAI Lab director Torsten Hahmann is a partner in a project
+    led by Harlan Onsrud exploring hands-on, team-based computing
+    education across the University of Maine System. The project
+    brings computing into activities addressing scientific
+    and societal challenges.
+    <a href="https://umaine.edu/research/2016/01/12/revolutionizing-computing-across-university-maine-system/">Read the UMaine Research announcement</a>.

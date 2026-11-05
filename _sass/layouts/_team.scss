@@ -138,3 +138,104 @@
     border-bottom: none;
   }
 }
+
+.team-director-card,
+.team-card,
+.team-former-card {
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(
+      90deg,
+      var(--accent),
+      var(--accent-hover)
+    );
+  }
+}
+
+.team-photo-initials {
+  display: grid;
+  place-items: center;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto var(--space-4);
+  border-radius: 50%;
+  background: rgba(0, 150, 150, 0.12);
+  color: var(--accent);
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.team-card .team-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+// Director: photo left on desktop, below text when stacked
+.team-director-card {
+  .pi-card {
+    display: grid;
+    grid-template-columns: 160px minmax(0, 1fr);
+    grid-template-areas: none;
+    gap: var(--space-8);
+    align-items: start;
+  }
+
+  .director-text {
+    grid-area: auto;
+    grid-column: 2;
+    grid-row: 1;
+    min-width: 0;
+  }
+
+  .director-media {
+    grid-area: auto;
+    grid-column: 1;
+    grid-row: 1;
+    width: 160px;
+    justify-self: start;
+
+    .pi-photo {
+      display: block;
+      margin: 0 auto;
+    }
+
+    .pi-links {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: var(--space-2);
+      margin-top: var(--space-4);
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .team-director-card {
+    .pi-card {
+      grid-template-columns: minmax(0, 1fr);
+    }
+
+    .director-text {
+      grid-column: 1;
+      grid-row: 1;
+    }
+
+    .director-media {
+      grid-column: 1;
+      grid-row: 2;
+      justify-self: center;
+      max-width: 100%;
+    }
+  }
+}

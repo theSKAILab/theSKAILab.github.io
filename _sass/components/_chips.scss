@@ -1,8 +1,8 @@
 // =============================================================
-// Research area chips + highlight callout boxes
+// Shared chips, research resource buttons, and highlight callouts
 // =============================================================
 
-// Chips — small tag pills for research areas
+// Container for research area chips
 .chip-container {
   display: flex;
   flex-wrap: wrap;
@@ -10,7 +10,9 @@
   margin: var(--space-4) 0 var(--space-6);
 }
 
-.chip {
+// Shared appearance for chips and research resource links
+.chip,
+.research-resource-links a {
   display: inline-block;
   padding: 0.25rem 0.875rem;
   font-family: 'DM Sans', sans-serif;
@@ -24,14 +26,19 @@
   transition: all var(--transition-fast);
   text-decoration: none;
   background-image: none !important;
-  padding-bottom: 0.25rem;
 
   &:hover {
     background-color: var(--accent);
     color: var(--on-accent);
+    text-decoration: none;
   }
 
-  // Muted variant for non-linked chips
+  &:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+  }
+
+  // Muted variant
   &.chip-muted {
     background-color: var(--bg-secondary);
     color: var(--text-secondary);
@@ -44,7 +51,7 @@
   }
 }
 
-// Highlight callout — eye-catching announcement box
+// Highlight callout
 .callout {
   border-left: 4px solid var(--accent);
   background: linear-gradient(135deg, var(--accent-light), transparent);
@@ -80,20 +87,25 @@
   }
 }
 
-// Variants
+// Callout variants
 .callout-success {
   border-left-color: #16a34a;
   background: linear-gradient(135deg, rgba(22, 163, 74, 0.08), transparent);
-  .callout-icon { color: #16a34a; }
+
+  .callout-icon {
+    color: #16a34a;
+  }
 }
 
 .callout-warning {
   border-left-color: #d97706;
   background: linear-gradient(135deg, rgba(217, 119, 6, 0.08), transparent);
-  .callout-icon { color: #d97706; }
+
+  .callout-icon {
+    color: #d97706;
+  }
 }
 
 .callout-info {
   border-left-color: var(--accent);
-  // default styling
 }

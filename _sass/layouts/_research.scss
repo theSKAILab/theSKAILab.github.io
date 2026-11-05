@@ -55,3 +55,119 @@
     line-height: 1.7;
   }
 }
+
+// Research project profiles and ontology entries
+.research-project-list,
+.research-ontology-list {
+  display: grid;
+  gap: var(--space-6);
+  margin-bottom: var(--space-10);
+}
+
+.research-project,
+.research-ontology {
+  margin: 0;
+  padding: var(--space-6);
+  min-width: 0;
+  scroll-margin-top: 6rem;
+}
+
+.research-project--with-image {
+  display: grid;
+  gap: var(--space-6);
+  align-items: start;
+}
+
+.research-project-title {
+  margin-top: 0;
+  margin-bottom: var(--space-4);
+  font-size: 1.35rem;
+  line-height: 1.3;
+}
+
+.research-project-content {
+  min-width: 0;
+}
+
+.research-project-figure {
+  width: 100%;
+  max-width: 12rem;
+  margin: 0;
+  justify-self: center;
+
+  figcaption {
+    margin-top: var(--space-2);
+    text-align: center;
+    font-size: 0.8125rem;
+    color: var(--text-muted);
+  }
+}
+
+.research-project-image-panel {
+  padding: var(--space-4);
+  background: #ffffff;
+  border-radius: var(--radius-lg);
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.research-resource-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-4);
+  margin-top: var(--space-4);
+  margin-bottom: 0;
+  font-size: 0.875rem;
+}
+
+@media (min-width: 768px) {
+  .research-project--with-image {
+    grid-template-columns: 12rem minmax(0, 1fr);
+  }
+}
+
+.research-project,
+.research-ontology {
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(
+      90deg,
+      var(--accent),
+      var(--accent-hover)
+    );
+  }
+}
+
+.research-type {
+  margin: 0 0 var(--space-4);
+  text-align: center;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+
+.research-initials {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: var(--radius-lg);
+  background: rgba(0, 150, 150, 0.12);
+  color: var(--accent);
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1;
+}

@@ -1,32 +1,45 @@
 <footer class="site-footer">
   <div class="footer-grid">
+
     <div>
       <h2 class="footer-heading">About</h2>
       <p>
-        {{ site.name }}<br>
-        {{ site.title }}<br>
-        {{ site.institution }}
+        {{ site.name | escape }}<br>
+        <a href="https://umaine.edu/scis/">School of Computing &amp; Information Science</a><br>
+        <a href="https://umaine.edu/">University of Maine</a>
       </p>
     </div>
+
     <div>
       <h2 class="footer-heading">Contact</h2>
       <p>
-        <a href="mailto:{{ site.email }}">{% include icon.html name="envelope" %} {{ site.email }}</a><br>
-        {% if site.links.github and site.links.github != "" %}<a href="{{ site.links.github }}">{% include icon.html name="github" %} GitHub</a><br>{% endif %}
+        <a href="{{ '/team/' | relative_url }}">
+          {% include icon.html name="envelope" %} Torsten Hahmann
+        </a>
       </p>
     </div>
+
     <div>
-      <h2 class="footer-heading">Links</h2>
+      <h2 class="footer-heading">Resources</h2>
       <p>
-        {% if site.links.google_scholar and site.links.google_scholar != "" %}<a href="{{ site.links.google_scholar }}">{% include icon.html name="google-scholar" %} Google Scholar</a><br>{% endif %}
-        {% if site.links.researchgate and site.links.researchgate != "" %}<a href="{{ site.links.researchgate }}">{% include icon.html name="researchgate" %} ResearchGate</a><br>{% endif %}
-        <a href="https://github.com/sbryngelson/academic-website-template">{% include icon.html name="github" %} Use this template!</a>
+        <a href="{{ '/research/' | relative_url }}">Research</a><br>
+        <a href="{{ '/publications/' | relative_url }}">Publications</a><br>
+        {% if site.links.github and site.links.github != "" %}
+        <a href="{{ site.links.github | escape }}">
+          {% include icon.html name="github" %} GitHub repositories
+        </a>
+        {% endif %}
       </p>
     </div>
+
   </div>
+
   <div class="footer-grid">
     <div class="footer-copyright" style="grid-column: 1 / -1;">
-      &copy; {{ "now" | date: "%Y" }} {{ site.name | escape }}
+      &copy; 2024–{{ "now" | date: "%Y" }} {{ site.name | escape }}
+      &middot;
+      Adapted from the
+      <a href="https://github.com/sbryngelson/academic-website-template">Academic Website Template</a>
     </div>
   </div>
 </footer>

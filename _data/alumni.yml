@@ -1,14 +1,16 @@
 # Former lab members, shown in a table on the Team page.
 # Each entry needs: name, duration, info
 
-- name: Albert Hibbs
-  duration: 1951-55
-  info: Now at Jet Propulsion Laboratory
+- name: "Kingsley Wiafe-Kwakye"
+  role: "RA"
+  duration: "2020–2024"
+  degree: "PhD, Spatial Information Science and Engineering (2024)"
+  info: "Ontologist, Amazon"
 
-- name: William Frazer
-  duration: 1954-58
-  info: Now Professor at UC San Diego
+- name: "Sanonda Datta Gupta"
+  role: "RA"
+  duration: ""
+  degree: "MS, Computer Science (2023)"
+  info: "PhD candidate, Drexel University"
 
-- name: Robert Hellwarth
-  duration: 1952-56
-  info: Now Professor at USC
+

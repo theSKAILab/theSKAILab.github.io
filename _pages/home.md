@@ -4,45 +4,42 @@ layout: homelay
 permalink: /
 ---
 
-<h1 class="home-hero">{{ site.name }}</h1>
-<p class="home-hero-sub">{{ site.title }}, {{ site.institution }}</p>
+<h1 class="home-hero home-brand">
+  <img
+    src="{{ '/images/skai-logo-bl-tl.svg' | relative_url }}"
+    class="lab-logo lab-logo--light"
+    alt="SKAI Lab — Spatial Knowledge and Artificial Intelligence"
+    width="2048"
+    height="1152"
+    fetchpriority="high"
+  >
+  <img
+    src="{{ '/images/skai-logo-wh-tl.svg' | relative_url }}"
+    class="lab-logo lab-logo--dark"
+    alt="SKAI Lab — Spatial Knowledge and Artificial Intelligence"
+    width="2048"
+    height="1152"
+  >
+</h1>
 
-<div class="chip-container" markdown="0">
-<a href="{{ '/research' | relative_url }}" class="chip">Quantum Electrodynamics</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Path Integrals</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Superfluidity</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Parton Model</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Quantum Computing</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Nanotechnology</a>
-</div>
+The **Spatial Knowledge and Artificial Intelligence (SKAI) Lab** at the University of Maine conducts research in spatial informatics and knowledge representation.
 
-Theoretical physics is a branch of physics that focuses on the development of mathematical models and theories to understand and explain natural phenomena.
-It plays a crucial role in our understanding of the fundamental laws of the universe and the fundamental particles that make up all matter.
-Research in theoretical physics helps us to make predictions about how the universe works and to test these predictions through experiments.
+Led by Torsten Hahmann, the lab develops ontologies, knowledge graphs, and automated reasoning methods to represent, integrate, and explore knowledge from diverse sources. Its work spans spatial representation and reasoning, ontology engineering, knowledge discovery from scientific literature, and environmental data integration.
 
-<div class="callout callout-success" markdown="0">
-<div class="callout-title">{% include icon.html name="award" class="callout-icon" %} Nobel Prize in Physics, 1965</div>
-<p>Awarded the Nobel Prize jointly with Julian Schwinger and Shin'ichiro Tomonaga for fundamental work in quantum electrodynamics, with deep-ploughing consequences for the physics of elementary particles.</p>
-</div>
+## Research Projects and Resources
 
-<div class="banner-frame" markdown="0">
-<img src="{{ '/images/banner.webp' | relative_url }}" alt="Feynman diagrams" width="1400" height="449" loading="lazy">
-<div class="banner-caption">Examples of Feynman diagrams. Feynman R., <em>The theory of positrons. Phys. Rev.</em> (1949)</div>
-</div>
+- **[SAWGraph]({{ '/research/' | relative_url }}#sawgraph)**: An open knowledge network connecting data about PFAS and other contaminants in food, water, and the environment.
 
-{% capture selected %}{% bibliography --query @*[selected=true] %}{% endcapture %}
-{% if selected contains "pub-entry" %}
-## Selected publications
+- **[Digital Forest Knowledge Graph]({{ '/research/' | relative_url }}#digital-forest)**: A geospatial knowledge graph connecting forest inventories, tree species information, and environmental data to support forest research and management.
 
-<div class="section-card selected-pubs" markdown="0">
-{{ selected }}
-<p style="margin: var(--space-4) 0 0;"><a href="{{ '/publications' | relative_url }}">All publications &rarr;</a></p>
-</div>
-{% endif %}
+- **[CelloGraph]({{ '/research/' | relative_url }}#cellograph)**: A cellulose informatics system combining knowledge extraction, ontologies, and expert review to support cellulosic materials discovery and research.
 
-## About me
+- **[Macleod]({{ '/research/' | relative_url }}#macleod)**: An ontology development environment supporting modular and parallel verification of first-order ontologies expressed in Common Logic.
 
-I am a physicist working in the field of quantum mechanics and quantum electrodynamics.
-I received my undergraduate degree in physics from the Massachusetts Institute of Technology (MIT) in 1939 and went on to earn my PhD from Princeton University in 1942.
-After completing my doctoral studies, I worked on the Manhattan Project, where I helped develop the first atomic bombs.
-After the war, I returned to academia, holding teaching and research positions at Cornell and now at the California Institute of Technology.
+## Selected Ontologies
+
+- **[SAWGraph ontologies]({{ '/research/' | relative_url }}#sawgraph)**: ContaminOSO, the Facilities and Industries Ontology (FIO), the SAWGraph Spatial and Water Ontologies, and the DSSTox Ontology connect contamination observations with environmental and geographic context.
+
+- **[Spatial and Temporal Aggregate Data (STAD)]({{ '/research/' | relative_url }}#digital-forest)**: An ontology design pattern for statistically aggregated data summarized over areas, time periods, or both.
+
+- **[CelloGraph Ontology and OnNER]({{ '/research/' | relative_url }}#cellograph)**: Ontologies for cellulosic materials and for representing named entities, their labels, and their context within scientific publications.

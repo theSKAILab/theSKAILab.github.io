@@ -116,3 +116,66 @@
     line-height: 1.5;
   }
 }
+
+// Lab logo in the home-page heading
+.home-brand {
+  max-width: 24rem;
+  margin: 0 0 var(--space-4);
+}
+
+.home-brand .lab-logo {
+  width: 100%;
+  height: auto;
+}
+
+.home-brand .lab-logo--light {
+  display: block;
+}
+
+.home-brand .lab-logo--dark {
+  display: none;
+}
+
+[data-bs-theme="dark"] .home-brand {
+  .lab-logo--light {
+    display: none;
+  }
+
+  .lab-logo--dark {
+    display: block;
+  }
+}
+
+// Director information in the sidebar
+.profile-card .director-education {
+  list-style: none;
+  padding: 0;
+  margin: var(--space-4) 0;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
+
+.profile-card .director-email {
+  margin: var(--space-4) 0 0;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
+
+.sidebar-news {
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(
+      90deg,
+      var(--accent),
+      var(--accent-hover)
+    );
+  }
+}

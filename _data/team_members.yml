@@ -1,20 +1,41 @@
-# Current students and postdocs.
-# Each entry needs: name, photo, info
-# Optional: email, website, scholar, github
-# Photos go in images/ or images/team/
+# Current lab members; the director is listed in director.yml
+# Member fields: name, photo, role, info
+# Optional links: profile_url, orcid
+# Leave unavailable information blank, ""
+# Photos go in images/team/
 
-- name: George Zweig
-  photo: team/george-zweig.svg
-  info: PhD Student, Quark Model
+- name: "David Kedrowski"
+  photo: "team/DKedrowski.jpg"
+  role: "Graduate Research Assistant"
+  info: "PhD candidate, Spatial Information Science & Engineering"
+  profile: ""
+  orcid: "https://orcid.org/0000-0002-9070-3169"
 
-- name: Albert Hibbs
-  photo: team/albert-hibbs.svg
-  info: PhD Student, Quantum Mechanics
+- name: "Katrina Schweikert"
+  photo: "team/KSchweikert.jpg"
+  role: "Graduate Research Assistant"
+  info: "PhD student, Spatial Information Science & Engineering"
+  profile: ""
+  orcid: "https://orcid.org/0000-0003-3271-6700"
 
-- name: Thomas Curtright
-  photo: team/thomas-curtright.svg
-  info: PhD Student, Quantum Field Theory
+- name: "Kendall Phillips"
+  photo: "team/KPhillips.jpg"
+  role: "Graduate Research Assistant"
+  info: ""
+  profile: ""
+  orcid: ""
 
-- name: "This could be you!"
-  photo: rock.jpg
-  info: See openings for more info
+- name: "Yadina Clark"
+  photo: "team/YClark.jpg"
+  role: "Graduate Research Assistant"
+  info: "PhD candidate, Interdisciplinary Studies"
+  profile: ""
+  orcid: ""
+
+- name: "Umayer Reza"
+  photo: "team/UReza.jpeg"
+  role: "Graduate Research Assistant"
+  info: "PhD candidate, Spatial Information Science & Engineering"
+  profile: "https://www.umayer.me/"
+  orcid: "https://orcid.org/0000-0003-4013-3513"
+

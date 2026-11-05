@@ -24,12 +24,8 @@
   <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
   <meta name="theme-color" content="{{ site.accent_color | default: '#1a7a6d' }}">
   <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | absolute_url }}">
-  <!-- favicon.svg is generated from your initials + accent color (see favicon.svg).
-       favicon.ico and apple-touch-icon.png are rasterized from it during deployment
-       for browsers without SVG favicon support (Safari). -->
-  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" sizes="32x32">
-  <link rel="icon" href="{{ '/favicon.svg' | relative_url }}" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | relative_url }}">
+  <link rel="icon" href="{{ '/images/skai-favicon-teal.svg' | relative_url }}" type="image/png">
+  <link rel="apple-touch-icon" href="{{ '/images/skai-favicon-teal.svg' | relative_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.name | escape }}" href="{{ '/feed.xml' | absolute_url }}">
 
   <!-- Accent color from config; light/dark variants are derived in _sass/base/_variables.scss -->
