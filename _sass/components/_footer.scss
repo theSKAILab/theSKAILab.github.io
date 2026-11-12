@@ -56,3 +56,13 @@
     text-transform: none;
   }
 }
+
+.site-footer a {
+  color: var(--accent);
+
+  &:hover,
+  &:focus-visible {
+    color: var(--accent-hover);
+    background-size: 100% 1px;
+  }
+}

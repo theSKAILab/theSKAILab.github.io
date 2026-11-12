@@ -4,7 +4,7 @@
     <div>
       <h2 class="footer-heading">About</h2>
       <p>
-        {{ site.name | escape }}<br>
+        Spatial Knowledge and Artificial Intelligence (SKAI) Lab<br>
         <a href="https://umaine.edu/scis/">School of Computing &amp; Information Science</a><br>
         <a href="https://umaine.edu/">University of Maine</a>
       </p>
@@ -34,13 +34,14 @@
 
   </div>
 
-  <div class="footer-grid">
-    <div class="footer-copyright" style="grid-column: 1 / -1;">
-      &copy; 2024–{{ "now" | date: "%Y" }} {{ site.name | escape }}
-      &middot;
+  <div class="footer-copyright"
+       style="display: block; width: 100%; margin: var(--space-6) auto 0; text-align: center;">
+    <p style="max-width: none; margin: 0;">
+      This site is maintained by Yadina Clark and Torsten Hahmann.<br>
       Adapted from the
-      <a href="https://github.com/sbryngelson/academic-website-template">Academic Website Template</a>
-    </div>
+      <a href="https://github.com/sbryngelson/academic-website-template">Academic Website Template</a>.<br>
+      &copy; 2024–{{ "now" | date: "%Y" }} Torsten Hahmann
+    </p>
   </div>
 </footer>
 
