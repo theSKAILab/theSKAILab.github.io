@@ -1,3 +1,25 @@
+# SKAI Lab Website
+
+This repository contains the website for the **Spatial Knowledge and Artificial Intelligence (SKAI) Lab** at the University of Maine:
+
+https://theskailab.github.io/
+
+The site was adapted from [Stephen Bryngelson’s Academic Website Template](https://github.com/sbryngelson/academic-website-template) by Yadina Clark, with input and review from lab director Torsten Hahmann. The rebuilt website launched on November 12, 2026.
+
+## Maintenance and Documentation
+
+See **[Maintaining the SKAI Lab website](MAINTAINING.md)** for a record of lab-specific changes and instructions for updating publications, news, team members, photos, research projects, and other content through GitHub.
+
+The editable files are on the **`source`** branch. Changes committed or merged into that branch automatically trigger the **Build and Deploy** GitHub Actions workflow and update the live website after a successful deployment.
+
+## Original Template Documentation
+
+The original template README continues below. Its examples, screenshots, badges, and demo links refer to the original template rather than the SKAI Lab website.
+
+For this adapted site, follow **MAINTAINING.md** wherever its instructions differ from the original template documentation.
+
+---
+
 # A website template for academics
 
 <p align="center">
