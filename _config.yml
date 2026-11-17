@@ -127,3 +127,4 @@ exclude:
   - vendor
   - .bundle
   - node_modules
+  - MAINTAINING.md
