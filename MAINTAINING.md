@@ -126,6 +126,12 @@ The footer has a three-column information area followed by centered maintenance,
 
 GitHub Pages is configured to use **GitHub Actions**. **`.github/workflows/deploy.yml`** builds and deploys on pushes to `source`, including browser commits and merged pull requests. There is no need to reselect GitHub Actions for each update. Leave the Pages publishing source and deployment permissions in their working configuration. The workflow supplies `url` and `baseurl` from Pages settings.
 
+### Deployment workflows
+
+Changes committed or merged into `source` automatically trigger `Build and Deploy` (`.github/workflows/deploy.yml`).
+
+The redundant `Deploy Jekyll site to Pages` workflow was disabled after investigating failure notifications following the initial launch. Keep it disabled.
+
 After committing or merging an update, open **Actions → Build and Deploy**, select the newest run for that commit, and check that both **build** and **deploy** succeeded. Then visit the live site and check the changed page, links, and images. Test layout changes on a narrow screen and in light and dark modes.
 
 - **Old error still visible:** check the date and commit. Failed runs retain their errors even after a later run succeeds.
