@@ -130,8 +130,6 @@ GitHub Pages is configured to use **GitHub Actions**. **`.github/workflows/deplo
 
 Changes committed or merged into `source` automatically trigger `Build and Deploy` (`.github/workflows/deploy.yml`).
 
-The redundant `Deploy Jekyll site to Pages` workflow was disabled after investigating failure notifications following the initial launch. Keep it disabled.
-
 After committing or merging an update, open **Actions → Build and Deploy**, select the newest run for that commit, and check that both **build** and **deploy** succeeded. Then visit the live site and check the changed page, links, and images. Test layout changes on a narrow screen and in light and dark modes.
 
 - **Old error still visible:** check the date and commit. Failed runs retain their errors even after a later run succeeds.
