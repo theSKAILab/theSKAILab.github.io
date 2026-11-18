@@ -6,7 +6,7 @@ permalink: /research/
 
 # Research Projects and Resources
 
-SKAI Lab research brings together spatial knowledge representation and artificial intelligence to support scientific discovery and environmental investigation. Working with domain specialists and government agencies, the lab develops methods and tools that make information from diverse sources easier to connect, analyze, and interpret.
+<p style="max-width: none;">SKAI Lab research brings together spatial knowledge representation and artificial intelligence to support scientific discovery and environmental investigation. Working with domain specialists and government agencies, the lab develops methods and tools that make information from diverse sources easier to connect, analyze, and interpret.</p>
 
 <div class="research-project-list" markdown="0">
 
