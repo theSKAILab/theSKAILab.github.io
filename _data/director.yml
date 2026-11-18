@@ -11,6 +11,7 @@ photo: "team/THahmann.jpg"
 profile_url: "https://umaine.edu/directory/ums_directory/torsten-hahmann/"
 email_display: "firstname . lastname @ maine . edu"
 orcid: "https://orcid.org/0000-0002-5331-5052"
+dblp: "https://dblp.org/pid/83/752.html"
 
 education:
   - "PhD, Computer Science, University of Toronto, 2013"
