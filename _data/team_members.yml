@@ -4,6 +4,13 @@
 # Leave unavailable information blank, ""
 # Photos go in images/team/
 
+- name: "Daniel Lawrence"
+  photo: "team/DLawrence.jpg"
+  role: "Graduate Research Assistant"
+  info: "PhD candidate, Spatial Information Science & Engineering"
+  profile: "https://www.librarianlawrence.info/"
+  orcid: ""
+  
 - name: "David Kedrowski"
   photo: "team/DKedrowski.jpg"
   role: "Graduate Research Assistant"
