@@ -22,9 +22,9 @@ permalink: /
   >
 </h1>
 
-The **Spatial Knowledge and Artificial Intelligence (SKAI) Lab** at the University of Maine conducts research in spatial informatics and knowledge representation.
+The **Spatial Knowledge and Artificial Intelligence (SKAI) Lab** at the University of Maine conducts research at the intersection of spatial data knowledge, artificial intelligence, and environmental informatics.
 
-Led by Torsten Hahmann, the lab develops ontologies, knowledge graphs, and automated reasoning methods to represent, integrate, and explore knowledge from diverse sources. Its work spans spatial representation and reasoning, ontology engineering, knowledge discovery from scientific literature, and environmental data integration.
+SKAI Lab develops ontologies, knowledge graphs, and automated reasoning methods to represent, integrate, and explore knowledge from diverse sources. Research spans spatial representation and reasoning, ontology engineering, knowledge discovery from scientific literature, and environmental data integration.
 
 ## Research Projects and Resources
 
