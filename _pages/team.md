@@ -53,6 +53,9 @@ permalink: /team/
 {% if director.orcid and director.orcid != "" %}
 <a href="{{ director.orcid | escape }}" class="chip">ORCID</a>
 {% endif %}
+{% if director.dblp and director.dblp != "" %}
+<a href="{{ director.dblp | escape }}" class="chip">DBLP</a>
+{% endif %}
 </div>
 </div>
 
