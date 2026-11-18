@@ -3,7 +3,7 @@
 
 - name: "Kingsley Wiafe-Kwakye"
   role: "Graduate Research Assistant"
-  duration: "2020–2024"
+  duration: "" #2020–2024
   degree: "PhD, Spatial Information Science & Engineering (2024)"
   info: "Ontologist, Amazon"
 
@@ -20,9 +20,9 @@
   info: "Software Architect, Northrop Grumman"
 
 - name: "Azadeh Izadi"
-  role: "Collaborating, Visiting Student"
+  role: "Collaborating Visiting Student"
   duration: ""
-  degree: "Ph.D, Massey University (2021)"
+  degree: "PhD, Massey University (2021)"
   info: "Assistant Professor, University of Houston, Downtown"
 
 - name: "Shirly Stephen"
