@@ -32,13 +32,6 @@
   profile: ""
   orcid: ""
 
-- name: "Yadina Clark"
-  photo: "team/YClark.jpg"
-  role: "Graduate Research Assistant"
-  info: "PhD candidate, Interdisciplinary Studies"
-  profile: ""
-  orcid: ""
-
 - name: "Umayer Reza"
   photo: "team/UReza.jpeg"
   role: "Graduate Research Assistant"
@@ -46,3 +39,9 @@
   profile: "https://www.umayer.me/"
   orcid: "https://orcid.org/0000-0003-4013-3513"
 
+- name: "Yadina Clark"
+  photo: "team/YClark.jpg"
+  role: "Graduate Research Assistant"
+  info: "PhD candidate, Interdisciplinary Studies"
+  profile: ""
+  orcid: ""
