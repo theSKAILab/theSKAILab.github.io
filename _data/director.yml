@@ -5,7 +5,7 @@ leadership: "Associate Director"
 leadership_unit: "School of Computing & Information Science"
 leadership_url: "https://umaine.edu/scis/"
 institution: "University of Maine"
-affiliation: "Spatial Data Science Institute"
+affiliation: "" #Spatial Data Science Institute removed
 
 photo: "team/THahmann.jpg"
 profile_url: "https://umaine.edu/directory/ums_directory/torsten-hahmann/"
