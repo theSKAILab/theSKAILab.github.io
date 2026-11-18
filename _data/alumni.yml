@@ -2,15 +2,44 @@
 # Each entry needs: name, duration, info
 
 - name: "Kingsley Wiafe-Kwakye"
-  role: "RA"
+  role: "Graduate Research Assistant"
   duration: "2020–2024"
-  degree: "PhD, Spatial Information Science and Engineering (2024)"
+  degree: "PhD, Spatial Information Science & Engineering (2024)"
   info: "Ontologist, Amazon"
 
 - name: "Sanonda Datta Gupta"
-  role: "RA"
+  role: "Collaborating Student"
   duration: ""
   degree: "MS, Computer Science (2023)"
   info: "PhD candidate, Drexel University"
 
+- name: "Robert Powell II"
+  role: "Graduate Research Assistant"
+  duration: ""
+  degree: "MS, Computer Science (2021)"
+  info: "Software Architect, Northrop Grumman"
+
+- name: "Azadeh Izadi"
+  role: "Collaborating, Visiting Student"
+  duration: ""
+  degree: "Ph.D, Massey University (2021)"
+  info: "Assistant Professor, University of Houston, Downtown"
+
+- name: "Shirly Stephen"
+  role: "Graduate Research Assistant"
+  duration: ""
+  degree: "PhD, Spatial Information Science & Engineering (2020)"
+  info: "Postdoctoral Researcher, UC Santa"
+
+- name: "Gregory Kritzman"
+  role: "Graduate Research Assistant"
+  duration: ""
+  degree: ""
+  info: ""
+
+  - name: "Stanley Small"
+  role: "Honors Thesis Student"
+  duration: ""
+  degree: "BS, Computer Science (2019)"
+  info: "Software Engineer, NVIDIA"
 
