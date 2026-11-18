@@ -28,13 +28,13 @@ SKAI Lab develops ontologies, knowledge graphs, and automated reasoning methods 
 
 ## Research Projects and Resources
 
-- **[SAWGraph]({{ '/research/' | relative_url }}#sawgraph)**: An open knowledge network connecting data about PFAS and other contaminants in food, water, and the environment.
+- **[SAWGraph]({{ '/research/' | relative_url }}#sawgraph)**: An open knowledge network connecting PFAS observations with information about potential sources, water systems, and environmental context.
 
-- **[Digital Forest Knowledge Graph]({{ '/research/' | relative_url }}#digital-forest)**: A geospatial knowledge graph connecting forest inventories, tree species information, and environmental data to support forest research and management.
+- **[Digital Forest Knowledge Graph]({{ '/research/' | relative_url }}#digital-forest)**: A geospatial knowledge graph connecting forest inventories, tree species information, and environmental data.
 
-- **[CelloGraph]({{ '/research/' | relative_url }}#cellograph)**: A cellulose informatics system combining knowledge extraction, ontologies, and expert review to support cellulosic materials discovery and research.
+- **[CelloGraph]({{ '/research/' | relative_url }}#cellograph)**: A cellulose informatics system using ontologies and tools to organize knowledge about cellulose and cellulosic materials, including information extracted from scientific publications.
 
-- **[Macleod]({{ '/research/' | relative_url }}#macleod)**: An ontology development environment supporting modular and parallel verification of first-order ontologies expressed in Common Logic.
+- **[Macleod]({{ '/research/' | relative_url }}#macleod)**: An ontology development environment supporting the development and verification of ontologies expressed in Common Logic.
 
 ## Selected Ontologies
 
