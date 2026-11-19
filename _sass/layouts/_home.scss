@@ -87,34 +87,67 @@
   }
 }
 
-// News timeline
+// News and homepage Highlights
 .news-timeline {
   margin-top: 0;
 
   .news-item {
-    padding: var(--space-3) 0;
+    padding: var(--space-6) 0;
     border-bottom: 1px solid var(--border-color);
 
+    &:first-child {
+      padding-top: 0;
+    }
+
     &:last-child {
+      padding-bottom: 0;
       border-bottom: none;
     }
   }
 
-  .news-date {
-    font-size: 0.6875rem;
-    font-weight: 600;
-    color: var(--text-muted);
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
+  .news-title {
+    margin: 0 0 var(--space-1);
     font-family: 'DM Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: var(--text-primary);
   }
 
-  .news-headline {
-    margin-top: var(--space-1);
-    color: var(--text-secondary);
-    font-size: 0.875rem;
+  .news-date {
+    display: block;
+    margin: 0 0 var(--space-3);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.8125rem;
+    font-weight: 700;
     line-height: 1.5;
+    color: var(--text-secondary);
+    text-transform: none;
+    letter-spacing: normal;
   }
+
+  .news-description {
+    margin: 0;
+    max-width: none;
+    font-size: 0.9375rem;
+    line-height: 1.65;
+    color: var(--text-secondary);
+  }
+
+  .news-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-1);
+    margin-top: var(--space-2);
+    font-size: 0.875rem;
+  }
+}
+
+.sidebar-news .news-title,
+.sidebar-news .news-description {
+  font-size: 0.875rem;
 }
 
 // Lab logo in the home-page heading
