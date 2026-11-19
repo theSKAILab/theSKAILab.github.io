@@ -22,7 +22,7 @@ permalink: /research/
 <p class="research-resource-links">
 <a href="https://sawgraph.com/">Website and Demos</a>
 <a href="https://github.com/SAWGraph">GitHub Repositories</a>
-<a href="https://sawgraph.com/ontologies.html">Ontologies and Documentation</a>
+<a href="https://sawgraph.com/ontologies.html">Ontologies</a>
 </p>
 </div>
 
@@ -89,7 +89,7 @@ permalink: /research/
 </figure>
 
 <p class="research-resource-links">
-<a href="https://github.com/thahmann/macleod">GitHub Repository and Documentation</a>
+<a href="https://github.com/thahmann/macleod">GitHub Repository</a>
 </p>
 </div>
 
