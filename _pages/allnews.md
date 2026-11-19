@@ -9,7 +9,7 @@ permalink: /allnews.html
 <div class="section-card" markdown="0">
   <div class="news-timeline">
     {% for article in site.data.news %}
-    <article class="news-item">
+    <article class="news-item" id="news-{{ article.headline | slugify }}">
       <h2 class="news-title">{{ article.headline | escape }}</h2>
       <p class="news-date">{{ article.date | escape }}</p>
       <p class="news-description">{{ article.description | escape }}</p>
