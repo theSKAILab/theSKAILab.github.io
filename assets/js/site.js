@@ -71,20 +71,23 @@
   });
 
   // ----- Publication Search/Filter -----
-
+  
   var searchInput = document.getElementById('pubSearch');
+  
   if (searchInput) {
     searchInput.addEventListener('input', function () {
       var query = this.value.toLowerCase().trim();
-      var entries = document.querySelectorAll('[data-pub-searchable]');
-
+      var entries = document.querySelectorAll(
+        '#pubList [data-pub-searchable]'
+      );
+  
       entries.forEach(function (entry) {
-        if (!query) {
-          entry.style.display = '';
-          return;
-        }
-        var text = entry.textContent.toLowerCase();
-        entry.style.display = text.includes(query) ? '' : 'none';
+        var row = entry.closest('li') || entry;
+        var matches =
+          !query || entry.textContent.toLowerCase().includes(query);
+  
+        row.style.display = matches ? '' : 'none';
+        row.style.listStyleType = query ? 'none' : '';
       });
     });
   }
