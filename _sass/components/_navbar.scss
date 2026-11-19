@@ -131,3 +131,20 @@
     margin-top: var(--space-3);
   }
 }
+
+// Hamburger menu lines — use the theme accent in both modes
+.navbar-toggler-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image:
+    linear-gradient(var(--accent), var(--accent)),
+    linear-gradient(var(--accent), var(--accent)),
+    linear-gradient(var(--accent), var(--accent));
+  background-size: 100% 2px;
+  background-position:
+    center calc(50% - 7px),
+    center,
+    center calc(50% + 7px);
+  background-repeat: no-repeat;
+}
+
