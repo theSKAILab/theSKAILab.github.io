@@ -33,9 +33,6 @@ permalink: /team/
 </ul>
 {% endif %}
 
-{% if director.email_display and director.email_display != "" %}
-<p>{{ director.email_display | escape }}</p>
-{% endif %}
 </div>
 
 <div class="director-media">
@@ -44,6 +41,9 @@ permalink: /team/
 {% endif %}
 
 <div class="pi-links">
+{% if director.email and director.email != "" %}
+<a href="mailto:{{ director.email | escape }}" class="chip">Email</a>
+{% endif %}
 {% if site.links.google_scholar and site.links.google_scholar != "" %}
 <a href="{{ site.links.google_scholar | escape }}" class="chip">Google Scholar</a>
 {% endif %}
