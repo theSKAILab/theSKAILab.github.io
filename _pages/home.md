@@ -24,22 +24,27 @@ permalink: /
 
 The **Spatial Knowledge and Artificial Intelligence (SKAI) Lab** at the University of Maine conducts research at the intersection of spatial data knowledge, artificial intelligence, and environmental informatics.
 
-SKAI Lab develops ontologies, knowledge graphs, and automated reasoning methods to represent, integrate, and explore knowledge from diverse sources. Research spans spatial representation and reasoning, ontology engineering, knowledge discovery from scientific literature, and environmental data integration.
+SKAI Lab develops ontologies, knowledge graphs, and automated reasoning methods to represent, integrate, and explore information from diverse sources. Research spans spatial representation and reasoning, ontology engineering, knowledge discovery from scientific literature, and environmental data integration.
 
-## Research Projects and Resources
+## Research in Practice
 
-- **[SAWGraph]({{ '/research/' | relative_url }}#sawgraph)**: An open knowledge network connecting PFAS observations with information about potential sources, water systems, and environmental context.
+Through collaboration with other universities, domain specialists, and government agencies, SKAI Lab connects research methods with practical questions. Examples include:
 
-- **[Digital Forest Knowledge Graph]({{ '/research/' | relative_url }}#digital-forest)**: A geospatial knowledge graph connecting forest inventories, tree species information, and environmental data.
+- **Environmental contamination:** SAWGraph connects PFAS monitoring results with information about potential sources, water systems, and geographic relationships to support investigation of contamination patterns and monitoring gaps.
+- **Forest–environment relationships:** The Digital Forest Knowledge Graph brings together forest inventories, tree species information, and environmental data for integrated analysis.
+- **Cellulosic materials:** CelloGraph organizes knowledge from scientific publications to help researchers examine materials, their properties, and their relationships.
+- **Ontology development and verification:** Macleod helps researchers develop formal representations of knowledge and use automated reasoning to examine their logical consistency and implications.
 
-- **[CelloGraph]({{ '/research/' | relative_url }}#cellograph)**: A cellulose informatics system using ontologies and tools to organize knowledge about cellulose and cellulosic materials, including information extracted from scientific publications.
+[Explore research projects and resources →]({{ '/research/' | relative_url }})
 
-- **[Macleod]({{ '/research/' | relative_url }}#macleod)**: An ontology development environment supporting the development and verification of ontologies expressed in Common Logic.
+## Reusable Models and Tools
 
-## Selected Ontologies
+The lab shares ontologies and research tools that provide foundations for further research and development. Explicit representations of meaning and provenance help researchers interpret information, combine sources, and trace knowledge back to its origins.
 
-- **[SAWGraph ontologies]({{ '/research/' | relative_url }}#sawgraph)**: ContaminOSO, the Facilities and Industries Ontology (FIO), the SAWGraph Spatial and Water Ontologies, and the DSSTox Ontology connect contamination observations with environmental and geographic context.
+## Graduate Research
 
-- **[Spatial and Temporal Aggregate Data (STAD)]({{ '/research/' | relative_url }}#digital-forest)**: An ontology design pattern for statistically aggregated data summarized over areas, time periods, or both.
+Graduate researchers contribute to methods, tools, and applications across the lab’s projects, working with collaborators at other universities and government agencies. They gain experience in interdisciplinary research, contribute to scholarly publications, and communicate their work through presentations.
 
-- **[CelloGraph Ontology and OnNER]({{ '/research/' | relative_url }}#cellograph)**: Ontologies for cellulosic materials and for representing named entities, their labels, and their context within scientific publications.
+Prospective graduate students are welcome to contact Torsten Hahmann to discuss research interests and potential opportunities.
+
+[Meet the team and contact the lab director →]({{ '/team/' | relative_url }})
