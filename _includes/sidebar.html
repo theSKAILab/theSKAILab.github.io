@@ -44,9 +44,11 @@
   <h2 style="margin-top: 0; font-size: 1.125rem;">Highlights</h2>
 
   <div class="news-timeline">
-    {% for article in site.data.news limit:2 %}
+    {% for article in site.data.news limit:4 %}
     <article class="news-item">
-      <h3 class="news-title">{{ article.headline | escape }}</h3>
+      <h3 class="news-title">
+        <a href="{{ '/allnews.html' | relative_url }}#news-{{ article.headline | slugify }}">{{ article.headline | escape }}</a>
+      </h3>
       <p class="news-date">{{ article.date | escape }}</p>
       <p class="news-description">{{ article.description | escape }}</p>
 
