@@ -1,60 +1,75 @@
-# News items displayed on the News page and in the homepage Highlights box.
 # Keep entries in reverse chronological order.
-# The homepage displays the first two entries.
-# Use surnames in headlines, full names on first mention in descriptions,
-# and surnames or pronouns on subsequent mentions.
-# Use HTML for formatting and links within each headline.
+# The homepage Highlights box displays the first two entries.
+# Use plain text for headlines and descriptions.
+# Links are optional; add each link with text and url.
 
 - date: "26 September–1 October 2026"
-  headline: >-
-    <strong>Hahmann participates in ISAO 2026</strong>
+  headline: "Hahmann participates in ISAO 2026"
+  description: >-
     SKAI Lab director Torsten Hahmann served on the faculty of the Interdisciplinary School on Applied Ontology in Vitória, Brazil. The school brought together students, researchers, and professionals for lectures and hands-on activities connecting formal ontology with practical applications.
-    <a href="https://foisconference.org/isao/">View the ISAO program</a>.
+  links:
+    - text: "View the ISAO program"
+      url: "https://foisconference.org/isao/"
 
 - date: "22 September 2026"
-  headline: >-
-    <strong>Schweikert presents SAWGraph research at IFOW 2026</strong>
+  headline: "Schweikert presents SAWGraph research at IFOW 2026"
+  description: >-
     SKAI Lab research assistant Katrina Schweikert presented “Aligning Environmental Sample Material Vocabularies in SAWGraph with FoodOn,” coauthored with Torsten Hahmann, at the seventh Integrated Food Ontology Workshop. Held alongside FOIS 2026 in Vitória, Brazil, the workshop explored connections among food systems, human health, and the environment.
-    <a href="https://foodon.org/ifow-2026-workshop/">View the IFOW program</a>.
+  links:
+    - text: "View the IFOW program"
+      url: "https://foodon.org/ifow-2026-workshop/"
 
 - date: "6 August 2026"
-  headline: >-
-    <strong>Phillips defends master’s thesis</strong>
+  headline: "Phillips defends master’s thesis"
+  description: >-
     SKAI Lab research assistant Kendall Phillips successfully defended her MS thesis in Spatial Information Science and Engineering, “Comparison of PFAS Contamination Across Drinking Water Wells in Maine Using a Knowledge Graph Approach.” Her research used knowledge-graph-driven geospatial analysis to investigate how PFAS contamination in Maine drinking water wells varies with aquifer type and well depth. Phillips is now pursuing her PhD.
 
 - date: "21 July 2026"
-  headline: >-
-    <strong>Reza demonstrates CelloGraph at the Forest Products Laboratory</strong>
+  headline: "Reza demonstrates CelloGraph at the Forest Products Laboratory"
+  description: >-
     SKAI Lab research assistant Umayer Reza presented CelloGraph at the APPTI/TAPPI meeting at the U.S. Forest Service’s Forest Products Laboratory in Madison, Wisconsin. His presentation demonstrated a knowledge graph system for organizing and exploring information about cellulosic materials extracted from scientific publications.
-    <a href="https://umayer.me/resource/pdf/CelloGraph_FPL_2026.pdf">View the CelloGraph presentation slides (PDF)</a>.
+  links:
+    - text: "View the CelloGraph presentation slides (PDF)"
+      url: "https://umayer.me/resource/pdf/CelloGraph_FPL_2026.pdf"
 
 - date: "5 June 2026"
-  headline: >-
-    <strong>Schweikert and Arundel present research at GeoAI 2026</strong>
+  headline: "Schweikert and Arundel present research at GeoAI 2026"
+  description: >-
     SKAI Lab research assistant Katrina Schweikert and USGS collaborator Samantha Arundel presented two papers at the first International Conference on Geospatial Artificial Intelligence in Ghent, Belgium. Schweikert presented “Precomputed Topological Relations for Integrated Geospatial Analysis Across Knowledge Graphs.” Arundel presented “Authoritative Knowledge Infrastructure for GeoAI: Implications for Scientific Spatial Data Providers.” Torsten Hahmann coauthored both papers.
-    <a href="https://doi.org/10.4230/LIPIcs.GIScience.2025.4">Read Schweikert and colleagues’ paper</a>. <a href="https://doi.org/10.5281/zenodo.23215427">Read Arundel and colleagues’ paper</a>.
+  links:
+    - text: "Read Schweikert and colleagues’ paper"
+      url: "https://doi.org/10.4230/LIPIcs.GIScience.2025.4"
+    - text: "Read Arundel and colleagues’ paper"
+      url: "https://doi.org/10.5281/zenodo.23215427"
 
 - date: "5 December 2023"
-  headline: >-
-    <strong>Schweikert featured as a Sustainability Graduate Fellow</strong>
+  headline: "Schweikert featured as a Sustainability Graduate Fellow"
+  description: >-
     SKAI Lab research assistant Katrina Schweikert discusses her research using geospatial knowledge graphs to integrate environmental data and investigate PFAS contamination, alongside her interests in sustainability and environmental justice.
-    <a href="https://umaine.edu/sustainabilitysolutions/2023-24-sustainability-graduate-fellow-katrina-schweikert/">Read the Mitchell Center fellowship feature</a>.
+  links:
+    - text: "Read the Mitchell Center fellowship feature"
+      url: "https://umaine.edu/sustainabilitysolutions/2023-24-sustainability-graduate-fellow-katrina-schweikert/"
 
 - date: "10 October 2023"
-  headline: >-
-    <strong>SAWGraph receives $1.5 million in NSF funding to help track PFAS</strong>
+  headline: "SAWGraph receives $1.5 million in NSF funding to help track PFAS"
+  description: >-
     SKAI Lab director Torsten Hahmann leads a team awarded $1.5 million from NSF to develop SAWGraph, an open knowledge network connecting PFAS contamination data with information about potential sources and environmental pathways.
-    <a href="https://umaine.edu/news/2023/10/umaine-leading-development-of-new-state-of-the-art-tool-for-tracking-pfas-nationwide/">Read the UMaine News article</a>.
+  links:
+    - text: "Read the UMaine News article"
+      url: "https://umaine.edu/news/2023/10/umaine-leading-development-of-new-state-of-the-art-tool-for-tracking-pfas-nationwide/"
 
 - date: "16 June 2021"
-  headline: >-
-    <strong>Wiafe-Kwakye’s Digital Forest research featured by Maine EPSCoR</strong>
+  headline: "Wiafe-Kwakye’s Digital Forest research featured by Maine EPSCoR"
+  description: >-
     SKAI Lab research assistant Kingsley Wiafe-Kwakye discusses his Digital Forest research in an INSPIRES student feature. Co-advised by Kate Beard-Tisdale and Torsten Hahmann, Wiafe-Kwakye uses ontologies and knowledge graphs to connect information about tree species and their environmental conditions.
-    <a href="https://umaine.edu/epscor/2021/06/16/inspires-student-feature-kingsley-wiafe-kwakye/">Read the Maine EPSCoR student feature</a>.
+  links:
+    - text: "Read the Maine EPSCoR student feature"
+      url: "https://umaine.edu/epscor/2021/06/16/inspires-student-feature-kingsley-wiafe-kwakye/"
 
 - date: "12 January 2016"
-  headline: >-
-    <strong>Hahmann collaborates on computing education across the University of Maine System</strong>
+  headline: "Hahmann collaborates on computing education across the University of Maine System"
+  description: >-
     SKAI Lab director Torsten Hahmann is a partner in a project led by Harlan Onsrud exploring hands-on, team-based computing education across the University of Maine System. The project brings computing into activities addressing scientific and societal challenges.
-    <a href="https://umaine.edu/research/2016/01/12/revolutionizing-computing-across-university-maine-system/">Read the UMaine Research announcement</a>.
-    
+  links:
+    - text: "Read the UMaine Research announcement"
+      url: "https://umaine.edu/research/2016/01/12/revolutionizing-computing-across-university-maine-system/"
